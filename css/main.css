@@ -1,0 +1,112 @@
+body {
+    background-color: rgba(255, 252, 248, 0.813);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    color:rgba(100, 100, 111, 0.623);
+    margin: 10px auto 0 auto;
+}
+
+/* Individual Spans within the h1 */
+.tic {
+    color: #00A2DD;
+}
+.tac {
+    color: #44EE70;
+}
+.toe {
+    color: #D2594D;
+}
+
+
+.display {
+    font-size: 25px;
+    margin-top: 1em;
+
+}
+
+.hide {
+    display: none;
+}
+
+
+.container {  
+    margin: 2% auto 2% auto;
+    max-height: 450px;
+    max-width: 450px;
+    box-shadow: rgba(55, 55, 61, 0.132) 0px 7px 29px 0px;
+
+    /* CSS GRID */
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(65, 65, 65);
+    border-bottom: 0;
+    border-right: 0; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;  
+    font-family: 'Fredoka One', cursive;
+}
+
+/* .box:hover {
+    background-color:rgba(93, 93, 103, 0.2);
+    transition: all .2s ease-in;
+
+} */
+
+.three, .six, .nine {
+    border-right: 3px solid rgb(65, 65, 65); 
+}
+
+.seven, .eight, .nine {
+    border-bottom: 3px solid rgb(65, 65, 65); 
+}
+
+
+.playerX {
+    color:#00A2DD;
+}
+
+.playerO {
+    color:#44EE70;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#reset {
+    background-color:#00A2DD;
+    color: white;
+    border-radius: 3px;
+    min-width: 200px;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color:#44ee719c;
+    transition: all .2s ease-in-out;
+}
+
+#reset:active {
+    background-color:red;
+    
+}
