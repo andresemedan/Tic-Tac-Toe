@@ -1,5 +1,5 @@
-# Simple Tic Tac Toe Project
-I built a simple tic tac toe project to work on css stying, using CSS- Grid, and especially JavaScript. 
+# Tic Tac Toe Project
+I built a simple tic tac toe project to work on css styling, using CSS- Grid, and especially JavaScript. 
 
 *You can try it on GitHub Pages!*
 
